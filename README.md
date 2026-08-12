@@ -33,14 +33,11 @@ A Flutter fitness tracking application for managing user fitness information, ac
 ## Repository Structure
 
     CodeAlpha_tasks/
-    ├── codealpha_flashcard_quiz/
-    │   └── README.md
-    ├── codealpha_random_quote_generator/
-    │   └── README.md
-    ├── CodeAlpha_fitness_tracker/
-    │   └── README.md
-    ├── .gitignore
-    └── README.md
+├── CodeAlpha_fitness_tracker/
+├── codealpha_flashcard_quiz/
+├── codealpha_random_quote_generator/
+├── .gitignore
+└── README.md
 
 ## How to Run
 
