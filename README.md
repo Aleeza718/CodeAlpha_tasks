@@ -1,75 +1,71 @@
-# CodeAlpha Flashcard Quiz
+# CodeAlpha App Development Internship
 
-A Flutter-based flashcard quiz application developed as part of the CodeAlpha App Development Internship.
+This repository contains the Flutter applications developed as part of the CodeAlpha App Development Internship.
 
-## Overview
+## Projects
 
-CodeAlpha Flashcard Quiz is a simple and interactive study application that helps users review questions and answers through digital flashcards.
+### 1. Flashcard Quiz
 
-Users can create, edit, delete, and organize flashcards, and can also test their knowledge using the quiz functionality.
+A Flutter-based flashcard quiz application designed for interactive learning and revision.
 
-## Features
+**Folder:** `codealpha_flashcard_quiz`
 
-- Interactive flashcards
-- Question and answer cards
-- Show Answer functionality
-- Next and Previous navigation
-- Add new flashcards
-- Edit existing flashcards
-- Delete flashcards
-- Flashcard categories
-- Quiz mode
-- Progress tracking during quizzes
-- Local data storage
-- Clean and user-friendly interface
-- Responsive Flutter UI
+### 2. Random Quote Generator
 
-## Flashcard Management
+A Flutter application that displays random motivational quotes with features such as favorites and search.
 
-Users can customize their study material by:
+**Folder:** `codealpha_random_quote_generator`
 
-- Creating new flashcards
-- Editing existing flashcards
-- Deleting flashcards
-- Selecting flashcard categories
-- Reviewing questions and answers
+### 3. Fitness Tracker
 
-Each flashcard contains:
+A Flutter fitness tracking application for managing user fitness information, activities, daily statistics, goals, water intake, history, and progress.
 
-- Question
-- Answer
-- Category
+**Folder:** `CodeAlpha_fitness_tracker`
 
-## Quiz
-
-The application includes an interactive quiz mode where users can test their knowledge using their saved flashcards.
-
-The quiz provides:
-
-- Questions from available flashcards
-- Answer selection
-- Quiz progress
-- Score/results
-
-## Local Data Storage
-
-Flashcards are stored locally so that users can keep their customized study material after closing and reopening the application.
-
-## Technologies Used
+## Tech Stack
 
 - Flutter
 - Dart
+- Provider
 - Hive
-- Hive Flutter
 - Material Design
 
-## Project Structure
+## Repository Structure
 
-```text
-lib/
-├── models/
-├── screens/
-├── services/
-├── utils/
-├── widgets/
-└── main.dart
+    CodeAlpha_tasks/
+    ├── codealpha_flashcard_quiz/
+    │   └── README.md
+    ├── codealpha_random_quote_generator/
+    │   └── README.md
+    ├── CodeAlpha_fitness_tracker/
+    │   └── README.md
+    ├── .gitignore
+    └── README.md
+
+## How to Run
+
+Each folder is an independent Flutter project.
+
+### Fitness Tracker
+
+    cd CodeAlpha_fitness_tracker
+    flutter pub get
+    flutter run
+
+### Flashcard Quiz
+
+    cd codealpha_flashcard_quiz
+    flutter pub get
+    flutter run
+
+### Random Quote Generator
+
+    cd codealpha_random_quote_generator
+    flutter pub get
+    flutter run
+
+Requires the Flutter SDK and a connected device or emulator.
+
+## About
+
+These projects were developed as part of the CodeAlpha App Development Internship to demonstrate Flutter application development, UI implementation, state management, local data storage, and interactive app functionality.
