@@ -32,12 +32,14 @@ A Flutter fitness tracking application for managing user fitness information, ac
 
 ## Repository Structure
 
-    CodeAlpha_tasks/
+```text
+CodeAlpha_tasks/
 ├── CodeAlpha_fitness_tracker/
 ├── codealpha_flashcard_quiz/
 ├── codealpha_random_quote_generator/
 ├── .gitignore
 └── README.md
+```
 
 ## How to Run
 
@@ -45,21 +47,27 @@ Each folder is an independent Flutter project.
 
 ### Fitness Tracker
 
-    cd CodeAlpha_fitness_tracker
-    flutter pub get
-    flutter run
+```bash
+cd CodeAlpha_fitness_tracker
+flutter pub get
+flutter run
+```
 
 ### Flashcard Quiz
 
-    cd codealpha_flashcard_quiz
-    flutter pub get
-    flutter run
+```bash
+cd codealpha_flashcard_quiz
+flutter pub get
+flutter run
+```
 
 ### Random Quote Generator
 
-    cd codealpha_random_quote_generator
-    flutter pub get
-    flutter run
+```bash
+cd codealpha_random_quote_generator
+flutter pub get
+flutter run
+```
 
 Requires the Flutter SDK and a connected device or emulator.
 
